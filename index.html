@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Band template</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/3261ed6ec3.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="home" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <div class="container-fluid">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#home">Band</a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#home">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#band">BAND</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tour">TOUR</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+                    <li class=" dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            MORE
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li class="dropdown-item"><a href="#">Merchandise</a></li>
+                            <li class="dropdown-item"><a href="#">Extras</a></li>
+                            <li class="dropdown-item"><a href="#">Media</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-search"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ol>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="newyork.jpg" alt="New York" width="1200" height="700">
+                <div class="carousel-caption">
+                    <h3>Los Angeles</h3>
+                    <p>The atmosphere in New York is lorem ipsum.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="chicago.jpg" alt="Chicago" width="1200" height="700">
+                <div class="carousel-caption">
+                    <h3>Chicago</h3>
+                    <p>Thank you, Chicago - A night we won't forget</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="la.jpg" alt="Los Angeles" width="1200" height="700">
+                <div class="carousel-caption">
+                    <h3>Los Angeles</h3>
+                    <p>Even though the traffic was a mess, we had the best time playing at Venice Beach!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+    <div class="container text-center" id="band">
+        <h3>THE BAND</h3>
+        <p><em>We Love Music!</em></p>
+        <p>We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <p class="text-center"><strong>Name</strong></p>
+                <a href="#demo" data-toggle="collapse">
+                    <img src="bandmember.jpg" class="rounded-circle person" alt="Random Name" width="255" height="255" />
+                </a>
+                <div id="demo" class="collapse">
+                    <p>Guitarist and Lead Vocalist</p>
+                    <p>Loves long walks on the beach</p>
+                    <p>Member since 1988</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <p class="text-center"><strong>Name</strong></p>
+                <a href="#demo2" data-toggle="collapse">
+                    <img src="bandmember.jpg" class="rounded-circle person" alt="Random Name" width="255" height="255" />
+                </a>
+                <div id="demo2" class="collapse">
+                    <p>Drummer</p>
+                    <p>Loves drummin'</p>
+                    <p>Member since 1988</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <p class="text-center"><strong>Name</strong></p>
+                <a href="#demo3" data-toggle="collapse">
+                    <img src="bandmember.jpg" class="rounded-circle person" alt="Random Name" width="255" height="255" />
+                </a>
+                <div id="demo3" class="collapse">
+                    <p>Bass player</p>
+                    <p>Loves math</p>
+                    <p>Member since 2005</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-gray" id="tour">
+        <div class="container ">
+            <h3>TOUR DATES</h3>
+            <p>Lorem ipsum we'll play you some music.</p>
+            <p>Remember to book your tickets!</p>
+            <ul class="list-unstyled">
+                <li class="list-group-item">September <span class="badge badge-danger"> Sold Out!</span></li>
+                <li class="list-group-item">October <span class="badge badge-danger"> Sold Out!</span></li>
+                <li class="list-group-item">November <span class="badge badge-secondary float-right"> 3</span></li>
+            </ul>
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    <div class="img-thumbnail ">
+                        <img class="img-fluid" src="paris.jpg" alt="Paris">
+                        <p><strong>Paris</strong></p>
+                        <p>Friday 27 November 2015</p>
+                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-thumbnail ">
+                        <img class="img-fluid" src="Newyork1.jpg" alt="Newyork">
+                        <p><strong>NewYork</strong></p>
+                        <p>Saturday 28 November 2015</p>
+                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-thumbnail ">
+                        <img class="img-fluid" src="sanfran.jpg" alt="SanFransisco">
+                        <p><strong>Sanfransisco</strong></p>
+                        <p>Sunday 29 November 2015</p>
+                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title"><span class="fas fa-lock"></span>Tickets</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <form role="form">
+                            <div class="form-group">
+                                <label for="psw"><span class="fas fa-shopping-cart"></span> Tickets, $23 per person</label>
+                                <input type="number" id="psw" class="form-control" placeholder="How Many?" />
+                            </div>
+                            <div class="form-group">
+                                <label for="username"><span class="fas fa-user"></span> Send To</label>
+                                <input type="text" id="username" class="form-control" placeholder="Enter Email" />
+                            </div>
+                            <button class="btn btn-block" type="submit">Pay <span class="fas fa-check"></span></button>
+                        </form>
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-secondary mr-auto" data-dismiss="modal"><span class="fas fa-times"></span> Cancel</button>
+                        <p>Need <a href="#">help?</a></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container " id="contact">
+        <h3 class="text-center">contact</h3>
+        <p class="text-center"><em>WE love our fans!</em></p>
+        <div class="row">
+            <div class="col-md-4">
+                <p>Fan? Drop a note.</p>
+                <p><span class="fas fa-map-marker"></span> Zagazig, Egypt</p>
+                <p><span class="fas fa-mobile-alt"></span> +002 01099495006</p>
+                <p><span class="fas fa-envelope"></span> a7mad.othman95@gmail.com</p>
+            </div>
+            <div class="col-md-8">
+                <div class="row ">
+                    <div class="col-sm-6 form-group">
+                        <input type="text" name="name" id="name" placeholder=" Name" class="form-control" required />
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input type="email" name="email" id="email" placeholder=" Email" class="form-control" required />
+                    </div>
+                </div><br>
+                <textarea name="comments" id="comments" class="form-control" placeholder="Comment" rows="5"></textarea><br>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <button class="btn btn-light float-right" type="submit">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <h3 class="text-center">From The Blog</h3>
+        <ul class="nav nav-tabs">
+            <li class="nav-item  active"><a class="nav-link" data-toggle="tab" href="#mike">Mike</a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#menu1">Chandler</a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#menu2">Peter</a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="mike" class="tab-pane active in">
+                <h2>Mike Ross, Manager</h2>
+                <p>Man, we've been on the road for some time now. Looking forward to lorem ipsum.</p>
+            </div>
+            <div id="menu1" class="tab-pane fade">
+                <h2>Chandler Bing, Guitarist</h2>
+                <p>Always a pleasure people! Hope you enjoyed it as much as I did. Could I BE.. any more pleased?</p>
+            </div>
+            <div id="menu2" class="tab-pane fade">
+                <h2>Peter Griffin, Bass player</h2>
+                <p>I mean, sometimes I enjoy the show, but other times I enjoy other things.</p>
+            </div>
+        </div>
+    </div>
+    <img src="map.jpg" class="img-fluid" width="100%" />
+    <footer class="container-fluid text-center">
+        <a href="#home" title="To Top">
+            <span class="fas fa-chevron-up glyphicon"></span>
+        </a><br><br>
+        <p>Bootstrap Theme Made By<strong style="color: rgb(23, 162, 184)"> Ahmed Mohammed Othman</strong></p>
+    </footer>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
